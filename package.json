@@ -2,9 +2,10 @@
   "name": "plex-api",
   "version": "2.0.0",
   "description": "Simple wrapper for querying against HTTP API on the Plex Media Server",
-  "main": "lib/api.js",
+  "main": "lib/exports.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "lib": "lib"
   },
   "dependencies": {
     "q": "^1.0.1",
