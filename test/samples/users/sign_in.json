@@ -1,0 +1,19 @@
+{
+    "user" : {
+        "email": "foo@bar.com",
+        "joined_at": "2014-04-28T04:06:37Z",
+        "username": "foo",
+        "title": "foo",
+        "authentication_token": "abc-pretend-to-be-token",
+        "entitlements":
+            [ "all",
+             "roku",
+             "android",
+             "xbox_one",
+             "xbox_360",
+             "windows",
+             "windows_phone" ],
+        "confirmed_at": "2014-04-28T05:15:27Z",
+        "forum_id": 1 }
+
+}

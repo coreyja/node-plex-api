@@ -56,8 +56,8 @@ module.exports = {
 		return nock('https://plex.tv',  {
 					reqheaders: options.reqheaders
 				})
-				.post('/users/sign_in.xml')
-				.replyWithFile(201, __dirname + '/samples/users/sign_in.xml');
+				.post('/users/sign_in.json')
+				.replyWithFile(201, __dirname + '/samples/users/sign_in.json');
 	},
 
 	withoutContent: function withoutContent() {

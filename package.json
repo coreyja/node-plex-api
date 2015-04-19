@@ -9,7 +9,8 @@
   "dependencies": {
     "q": "^1.0.1",
     "request": "^2.36.0",
-    "uuid": "^2.0.1"
+    "uuid": "^2.0.1",
+    "xml2js": "^0.4.8"
   },
   "devDependencies": {
     "expect.js": "*",

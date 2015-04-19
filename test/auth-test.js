@@ -21,7 +21,7 @@ describe('query()', function() {
 
 	afterEach(server.stop);
 
-	it('should request https://plex.tv/users/sign_in.xml when Plex Server responds with 401', function() {
+	it('should request https://plex.tv/users/sign_in.json when Plex Server responds with 401', function() {
 		var plexTvMock = server.requiresAuthToken();
 
 		server.start();
